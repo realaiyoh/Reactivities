@@ -9,3 +9,34 @@
 body {
     background-color: var(--main-bg-color) !important;
 }
+
+.react-calendar {
+    width: 100% !important;
+    border: none !important;
+    box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15)
+}
+
+/* start - home page styles */
+
+.masthead {
+    display: flex;
+    align-items: center;
+    background-image: gray;
+    height: 100vh;
+}
+
+.masthead .ui.menu .ui.button .ui.menu a.ui.inverted.button {
+    margin-left: 0.5rem;
+}
+
+.masthead h1.ui.header {
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.masthead h2 {
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+/* end - home page styles */
